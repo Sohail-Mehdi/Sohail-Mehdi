@@ -5,13 +5,13 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi" alt="sohail-mehdi" /></a> </p>
 
-- 🔭 I’m currently working on **Student Management System**
+- 🔭 I’m currently working on **ShipDeck**
 
-- 🌱 I’m currently learning **laravel**
+- 🌱 I’m currently learning **java + DSA**
 
 - 👯 I’m looking to collaborate on **Java and Python**
 
-- 🤝 I’m looking for help with **Laravel**
+- 🤝 I’m looking for help with **Python**
 
 - 📫 How to reach me **msohailbuzdar42@gmail.com**
 
