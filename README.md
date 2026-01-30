@@ -1,10 +1,18 @@
-![Banner](https://capsule-render.vercel.app/api?type=rect&color=000000&height=150&section=header&text=Muhammad%20Sohail&descAlign=50&descSize=20)
+![Banner](https://capsule-render.vercel.app/api?type=rect&color=000000&height=120&section=header&text=Muhammad%20Sohail&fontSize=60&fontColor=ffffff)
 
 <div align="center">
 
-### Professional Summary
-Dedicated Full Stack Developer experienced in building scalable SaaS applications using **Laravel**, **React**, and **MySQL**. Passionate about clean architecture and efficient algorithms. Currently focusing on **ShipDeck** and advanced **Java Data Structures**.
+### Full Stack Laravel Developer | Building Scalable SaaS Solutions
+Specializing in **Laravel**, **React**, and **System Architecture**. Passionate about writing clean, efficient code and solving complex problems.
 
+<br/>
+
+### Achievements
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+</a>
+
+<br/>
 <br/>
 
 ### Technical Skills
@@ -17,7 +25,7 @@ Dedicated Full Stack Developer experienced in building scalable SaaS application
 
 ### Coding Consistency
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=dark&hide_border=true&background=000000&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=dark&hide_border=true&background=000000" alt="GitHub Streak" />
 </p>
 
 <br/>
@@ -41,8 +49,8 @@ Dedicated Full Stack Developer experienced in building scalable SaaS application
 <a href="mailto:msohailbuzdar42@gmail.com">
   <img src="https://img.shields.io/badge/Email-msohailbuzdar42%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white&border=1" />
 </a>
-<a href="https://github.com/sohail-mehdi">
-  <img src="https://img.shields.io/badge/GitHub-Sohail%20Mehdi-000000?style=for-the-badge&logo=github&logoColor=white&border=1" />
+<a href="https://linkedin.com/in/sohail-mehdi">
+  <img src="https://img.shields.io/badge/LinkedIn-Sohail%20Mehdi-000000?style=for-the-badge&logo=linkedin&logoColor=white&border=1" />
 </a>
 
 </div>
