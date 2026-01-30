@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Sohail-Mehdi&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
 </a>
 
 <br/><br/>
@@ -21,15 +21,21 @@
 
 ## 📈 Most Used Languages
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&langs_count=8" alt="Top Languages" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sohail-Mehdi&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&langs_count=8" alt="Top Languages" />
+  </a>
 </p>
 
 <br/>
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&count_private=true" alt="Sohail Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=tokyonight&hide_border=true&background=000000" alt="Streak Stats" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=Sohail-Mehdi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&count_private=true" alt="Sohail Stats" />
+  </a>
+  <a href="https://git.io/streak-stats">
+    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Sohail-Mehdi&theme=tokyonight&hide_border=true&background=000000" alt="Streak Stats" />
+  </a>
 </p>
 
 <br/>
