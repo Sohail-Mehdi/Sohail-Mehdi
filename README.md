@@ -1,50 +1,48 @@
+![Banner](https://capsule-render.vercel.app/api?type=rect&color=000000&height=150&section=header&text=Muhammad%20Sohail&fontSize=50&fontColor=ffffff&desc=Full%20Stack%20Laravel%20Developer&descAlign=50&descSize=20)
+
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=20C20E&center=true&vCenter=true&width=500&lines=Hi+I'm+Muhammad+Sohail;Full+Stack+Laravel+Developer;Building+ShipDeck+SaaS;Learning+Java+%2B+DSA" alt="Typing SVG" />
+### Professional Summary
+Dedicated Full Stack Developer experienced in building scalable SaaS applications using **Laravel**, **React**, and **MySQL**. Passionate about clean architecture and efficient algorithms. Currently focusing on **ShipDeck** and advanced **Java Data Structures**.
 
 <br/>
 
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+### Technical Skills
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=laravel,php,mysql,react,js,java,python,linux,git,github,vscode,figma&perline=12&theme=dark" />
 </a>
 
-<br/><br/>
+<br/>
+<br/>
 
-## 🛠️ Tech Stack
+### Coding Consistency
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=laravel,php,js,mysql,react,java,python,html,css,bootstrap,tailwind,nodejs,express,mongodb,matlab,figma,ai,ps&perline=9&theme=dark" />
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=dark&hide_border=true&background=000000&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
 </p>
 
 <br/>
 
-## 📈 Most Used Languages
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=tokyonight&hide_border=true&bg_color=000000&langs_count=8" alt="Top Languages" />
-  </a>
-</p>
-
-<br/>
-
-## 📊 GitHub Stats
+### Performance Analytics
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=tokyonight&hide_border=true&bg_color=000000&count_private=true" alt="Sohail Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=dark&hide_border=true&bg_color=000000&langs_count=8" alt="Top Languages" />
   </a>
-  <a href="https://git.io/streak-stats">
-    <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=tokyonight&hide_border=true&background=000000" alt="Streak Stats" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=dark&hide_border=true&bg_color=000000&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   </a>
 </p>
 
 <br/>
 
+### Contact
 <a href="mailto:msohailbuzdar42@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Email-msohailbuzdar42%40gmail.com-000000?style=for-the-badge&logo=gmail&logoColor=white&border=1" />
 </a>
-<a href="https://fb.com/sohail mehdi">
-  <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
+<a href="https://github.com/sohail-mehdi">
+  <img src="https://img.shields.io/badge/GitHub-Sohail%20Mehdi-000000?style=for-the-badge&logo=github&logoColor=white&border=1" />
 </a>
 
 </div>
