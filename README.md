@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=000000&height=200&section=header&text=Muhammad%20Sohail&fontSize=60&fontColor=ffffff&fontAlignY=35&desc=Laravel%20%7C%20Java%20%7C%20SaaS%20Developer&descAlignY=65&descAlign=50)
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=000000&height=180&section=header&text=Muhammad%20Sohail&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Laravel%20Developer&descAlignY=65&descAlign=50)
 
 <br/>
 
@@ -10,7 +10,7 @@
 
 <br/><br/>
 
-<h3>TECHNICAL STACK</h3>
+<h3>TECHNICAL ARSENAL</h3>
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=laravel,php,react,js,mysql,java,python,linux,git,github,vscode,figma&perline=12&theme=dark" />
 </a>
@@ -20,18 +20,18 @@
 <h3>DEVELOPMENT ANALYTICS</h3>
 <table>
   <tr>
-    <td width="50%" align="center" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=dark&hide_border=true&bg_color=000000&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+    <td width="55%" align="center" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=dark&hide_border=true&bg_color=000000&count_private=true&include_all_commits=true&rank_icon=github" alt="Total Commits & Stats" />
     </td>
-    <td width="50%" align="center" style="border: none;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=dark&hide_border=true&bg_color=000000&langs_count=8" alt="Top Languages" />
+    <td width="45%" align="center" style="border: none;">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=dark&hide_border=true&bg_color=000000&langs_count=8" alt="Language Graph" />
     </td>
   </tr>
 </table>
 
 <br/>
 
-<h3>CONSISTENCY</h3>
+<h3>CODING CONSISTENCY</h3>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=dark&hide_border=true&background=000000" alt="Streak" />
 
 <br/><br/>
