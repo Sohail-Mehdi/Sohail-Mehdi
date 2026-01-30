@@ -1,4 +1,4 @@
-![Banner](https://capsule-render.vercel.app/api?type=rect&color=000000&height=150&section=header&text=Muhammad%20Sohail&fontSize=50&fontColor=ffffff&desc=Full%20Stack%20Laravel%20Developer&descAlign=50&descSize=20)
+![Banner](https://capsule-render.vercel.app/api?type=rect&color=000000&height=150&section=header&text=Muhammad%20Sohail&descAlign=50&descSize=20)
 
 <div align="center">
 
