@@ -1,54 +1,42 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Rubik+Glitch&weight=500&size=55&pause=1000&color=FFFFFF&center=true&vCenter=true&width=600&lines=MUHAMMAD+SOHAIL" alt="Glitch Name" />
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&pause=1000&color=20C20E&center=true&vCenter=true&width=600&lines=Laravel+%7C+React+%7C+Java+%2B+DSA;Building+ShipDeck+SaaS;Open+Source+Contributor" alt="Sub Header" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4,5&height=250&section=header&text=Muhammad%20Sohail&fontSize=70&animation=fadeIn&fontAlignY=38&desc=Building%20ShipDeck%20%7C%20Laravel%20%7C%20Java&descAlignY=60&descAlign=50)
 
 <br/>
-
 <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=sohail-mehdi&theme=dracula&no-frame=true&no-bg=true&margin-w=4" alt="Trophies" />
 </a>
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=BD93F9&center=true&vCenter=true&width=500&lines=Eat();Sleep();Code();Repeat();Turning+Coffee+Into+Code" alt="Typing SVG" />
 
 <br/><br/>
 
-### 🛠️ My Arsenal
+### 🛠️ Tech Arsenal
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=laravel,php,mysql,react,js,java,python,linux,git,github,vscode,figma&perline=12&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=laravel,php,react,js,mysql,java,python,linux,git,vscode,figma,ps&perline=12&theme=dark" />
 </a>
 
 <br/><br/>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b> Most Used Languages</b><br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&langs_count=8" />
-    </td>
-    <td align="center" width="50%">
-      <b> GitHub Stats</b><br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true" />
-    </td>
-  </tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohail-mehdi&layout=donut&theme=dracula&hide_border=true&bg_color=282a36&langs_count=6&hide_title=true&text_color=bd93f9" height="190" alt="Languages" />
+&nbsp;
+<img src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&theme=dracula&hide_border=true&bg_color=282a36&count_private=true&text_color=bd93f9" height="190" alt="Stats" />
 
 <br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=radical&hide_border=true&background=0d1117" alt="Streak" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=sohail-mehdi&theme=dracula&hide_border=true&background=282a36&fire=FF5555" alt="Streak" />
 
 <br/><br/>
 
 <a href="mailto:msohailbuzdar42@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-msohailbuzdar42-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gmail-Connect-FF5555?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/sohail-mehdi">
-  <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<a href="https://fb.com/sohail mehdi">
+  <img src="https://img.shields.io/badge/Facebook-Follow-bd93f9?style=for-the-badge&logo=facebook&logoColor=white"/>
 </a>
 
-<br/>
-<br/>
-<img src="https://komarev.com/ghpvc/?username=sohail-mehdi&label=Profile%20Views&color=ff0055&style=flat" alt="Views" />
+<br/><br/>
+<img src="https://komarev.com/ghpvc/?username=sohail-mehdi&label=VISITORS&color=bd93f9&style=for-the-badge" alt="Visitors" />
 
 </div>
