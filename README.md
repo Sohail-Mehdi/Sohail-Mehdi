@@ -1,153 +1,138 @@
 <!-- ═══════════════════════════════════════════════════════════
      Muhammad Sohail — GitHub Profile README
-     Theme: Midnight Ivory
-     Last updated: 2026-09
+     Theme : Midnight Ivory
+     Last updated : 2026-09
 ═══════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ─── HERO ─────────────────────────────────────────── -->
+<!-- ─── HERO ──────────────────────────────────────────────── -->
 
 <img
   src="./assets/github-header.svg"
-  alt="Muhammad Sohail — Software Developer · Laravel · Python · SaaS. Building practical software and intelligent systems."
+  alt="Muhammad Sohail — Software Developer · Laravel · Python · SaaS"
   width="100%"
-  style="display:block;"
 />
 
 <br/>
 
-<!-- ─── CONTACT LINKS ────────────────────────────────── -->
+<!-- ─── CONTACT BADGES ─────────────────────────────────────── -->
 
-<a href="https://www.linkedin.com/in/muhammad-sohail-63982b428" aria-label="LinkedIn profile">
+<a href="https://www.linkedin.com/in/muhammad-sohail-63982b428/" aria-label="LinkedIn">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 &nbsp;
-<a href="mailto:msohailbuzdar42@gmail.com" aria-label="Send email">
-  <img src="https://img.shields.io/badge/Email-msohailbuzdar42%40gmail.com-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+<a href="mailto:msohailbuzdar42@gmail.com" aria-label="Email">
+  <img src="https://img.shields.io/badge/Email-8B5CF6?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 &nbsp;
-<a href="https://github.com/Sohail-Mehdi" aria-label="GitHub profile">
+<a href="https://github.com/Sohail-Mehdi" aria-label="GitHub">
   <img src="https://img.shields.io/badge/GitHub-Sohail--Mehdi-22D3EE?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 </div>
 
+<br/>
+
 ---
 
-<!-- ─── ABOUT ──────────────────────────────────────────── -->
+<!-- ─── ABOUT ──────────────────────────────────────────────── -->
 
 ## About
 
-I am a Computer Science graduate and software developer. My primary work is building backend systems and SaaS products using **Laravel/PHP** and **Python**.
+CS graduate and software developer. I build backend systems and SaaS products primarily with **Laravel/PHP** and **Python**, integrate REST APIs, third-party services, and AI where it adds real value.
 
-I work on e-commerce and logistics software, build REST APIs and integrations, and incorporate AI where it adds practical value. Alongside product development, I conduct independent technical research into LLM agents and memory systems.
-
-My academic foundation is in full-stack development (MERN stack, final-year project). My current professional focus is backend and SaaS product engineering.
+My current focus is on e-commerce and logistics software — specifically problems around order workflows, COD/RTO reduction, and logistics integrations. Alongside product development, I conduct independent technical research into LLM agent memory systems.
 
 ---
 
-<!-- ─── WHAT I BUILD ───────────────────────────────────── -->
+<!-- ─── WHAT I BUILD ───────────────────────────────────────── -->
 
 ## What I Build
 
-- **SaaS and web application development** — backend systems, multi-tenant architecture, business logic, workflow automation
-- **E-commerce and logistics software** — order management, fulfilment workflows, COD/RTO reduction, courier integrations
-- **Backend APIs and integrations** — REST APIs, webhooks, third-party service integrations, background processing
-- **AI-assisted software** — LLM API integrations, AI-driven workflow automation, intelligent system components
-- **Technical research** — independent research into LLM agent memory, reproducible experiments, controlled evaluation
+- **SaaS & web applications** — multi-tenant backend systems, business logic, workflow automation
+- **E-commerce & logistics software** — order workflows, COD/RTO reduction, courier integrations, seller ops
+- **API & system integrations** — REST APIs, webhooks, third-party service connections, background processing
+- **AI-assisted application features** — LLM API integrations, AI-driven automation, intelligent system components
+- **Technical research** — LLM agent memory, persistent memory architectures, reproducible experimentation
 
 ---
 
-<!-- ─── CORE STACK ─────────────────────────────────────── -->
+<!-- ─── CORE TECHNOLOGIES ──────────────────────────────────── -->
 
-## Core Stack
-
-<table>
-<tr>
-<td valign="top" width="50%">
+## Core Technologies
 
 **Backend**
-- PHP · Laravel
-- Python
-- REST APIs · Webhooks
-- Background jobs · Queues
-- Authentication workflows
 
-**Web**
-- JavaScript
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP"/>
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
 
-</td>
-<td valign="top" width="50%">
+**Web & APIs**
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/REST%20APIs-0D1117?style=flat-square&logo=fastapi&logoColor=white" alt="REST APIs"/>
 
 **Data & Infrastructure**
-- MySQL
-- Redis
 
-**Development**
-- Docker
-- Linux
-- Git · GitHub
-- VS Code
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"/>
 
-</td>
-</tr>
-</table>
+**Environment & Tools**
+
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
 
 ---
 
-<!-- ─── RESEARCH ────────────────────────────────────────── -->
+<!-- ─── ENGINEERING WORK ───────────────────────────────────── -->
+
+## Engineering Work
+
+Most of my active product development is maintained in private repositories. My work focuses on practical backend and SaaS systems — in particular:
+
+- **Laravel/PHP backend development** — authentication, business workflows, queues, application architecture
+- **Python development** — backend services, automation, API layers, experimentation
+- **E-commerce & logistics systems** — order management, fulfilment workflows, COD/RTO reduction, courier API integrations
+- **SaaS application development** — multi-tenant architecture, subscription workflows, operational tooling
+- **AI-assisted features** — LLM API integrations, intelligent automation within application workflows
+- **MySQL & Redis** — relational data modelling, caching, session and queue-backed workflows
+- **Docker & Linux** — containerised development environments, Linux-based tooling
+
+I build software that solves real operational problems. The work is product-focused, backend-heavy, and integration-intensive.
+
+---
+
+<!-- ─── RESEARCH ────────────────────────────────────────────── -->
 
 ## Research
 
-I am conducting ongoing independent technical research on **LLM agent memory systems**.
+I conduct ongoing independent technical research into **LLM agent memory systems**.
 
-Areas of focus include:
+Areas of investigation:
 
-- Persistent memory architectures for LLM agents
-- Memory localization and selective revocation
-- Reproducible experimental workflows
-- Controlled evaluation of memory retrieval behaviours
+- Persistent memory architectures for LLM-based agents
+- Memory localization, selective revocation, and containment
+- Reproducible experimental design and controlled evaluation
+- Retrieval behaviour analysis across agent memory configurations
 
 This is exploratory, ongoing work. No publications are claimed.
 
 ---
 
-<!-- ─── SELECTED WORK ──────────────────────────────────── -->
-
-## Selected Work
-
-Most of my active work is in private repositories.
-Public work will be added here as projects reach a shareable state.
-
----
-
-<!-- ─── GITHUB ACTIVITY ─────────────────────────────────── -->
-
-## GitHub Activity
-
-<div align="center">
-
-<img
-  src="https://github-readme-stats.vercel.app/api?username=sohail-mehdi&show_icons=true&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=22D3EE&text_color=A7B0BE&count_private=true&hide=contribs"
-  height="165"
-  alt="GitHub contribution stats for Sohail-Mehdi"
-/>
-
-</div>
-
----
-
-<!-- ─── CONNECT ─────────────────────────────────────────── -->
+<!-- ─── CONNECT ─────────────────────────────────────────────── -->
 
 ## Connect
 
-- **LinkedIn** — [linkedin.com/in/muhammad-sohail-63982b428](https://www.linkedin.com/in/muhammad-sohail-63982b428)
+- **LinkedIn** — [linkedin.com/in/muhammad-sohail-63982b428](https://www.linkedin.com/in/muhammad-sohail-63982b428/)
 - **Email** — [msohailbuzdar42@gmail.com](mailto:msohailbuzdar42@gmail.com)
 - **GitHub** — [github.com/Sohail-Mehdi](https://github.com/Sohail-Mehdi)
 
 ---
 
 <div align="center">
-<sub>© Muhammad Sohail · Software Developer · Laravel · Python · SaaS</sub>
+<sub>Muhammad Sohail &nbsp;·&nbsp; Software Developer &nbsp;·&nbsp; Laravel &nbsp;·&nbsp; Python &nbsp;·&nbsp; SaaS</sub>
 </div>

@@ -6,175 +6,283 @@
   role="img"
   aria-label="Muhammad Sohail — Software Developer · Laravel · Python · SaaS. Building practical software and intelligent systems."
 >
+  <!-- ═══════════════════════════════════════════════════════════
+       github-header.svg — Midnight Ivory theme
+       Pure SVG: gradients · paths · patterns · filters · SMIL/CSS
+       No raster embeds · No JavaScript · No external assets
+  ═══════════════════════════════════════════════════════════ -->
+
   <defs>
 
-    <!-- ── Backgrounds ───────────────────────────────────── -->
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0%"   stop-color="#0B0F17"/>
-      <stop offset="55%"  stop-color="#0D1117"/>
-      <stop offset="100%" stop-color="#131920"/>
+    <!-- ── GRADIENTS ─────────────────────────────────────────── -->
+
+    <!-- Base background: deep dark, subtle diagonal warmth -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#090D14"/>
+      <stop offset="42%"  stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#141C25"/>
     </linearGradient>
 
-    <!-- Soft violet radial bloom behind text -->
-    <radialGradient id="bloom" cx="50%" cy="52%" r="38%">
-      <stop offset="0%"   stop-color="#1A1040" stop-opacity="0.55"/>
+    <!-- Edge vignette: softly darkens corners, adds depth -->
+    <radialGradient id="vignette" cx="50%" cy="50%" r="65%" gradientUnits="objectBoundingBox">
+      <stop offset="30%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#04070D" stop-opacity="0.74"/>
+    </radialGradient>
+
+    <!-- Soft violet bloom behind the text block -->
+    <radialGradient id="bloom" cx="50%" cy="50%" r="55%" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#1C1048" stop-opacity="0.48"/>
       <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Violet → Cyan accent line -->
-    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Accent separator: violet → blue → cyan -->
+    <linearGradient id="sep" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="18%"  stop-color="#8B5CF6" stop-opacity="0.9"/>
-      <stop offset="50%"  stop-color="#6EA8F8" stop-opacity="1"/>
-      <stop offset="82%"  stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="16%"  stop-color="#8B5CF6" stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#6AA8F8" stop-opacity="1"/>
+      <stop offset="84%"  stop-color="#22D3EE" stop-opacity="1"/>
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Left-edge curve glow (violet) -->
-    <linearGradient id="arcViolet" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    <!-- Shimmer: narrow bright band swept across canvas -->
+    <linearGradient id="shimmerG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="40%"  stop-color="#FFFFFF" stop-opacity="0.018"/>
+      <stop offset="50%"  stop-color="#FFFFFF" stop-opacity="0.032"/>
+      <stop offset="60%"  stop-color="#FFFFFF" stop-opacity="0.018"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Right-edge curve glow (cyan) -->
-    <linearGradient id="arcCyan" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    <!-- Left-arc gradient (violet with fade toward center) -->
+    <linearGradient id="leftArc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.05"/>
     </linearGradient>
 
-    <!-- Dot grid pattern -->
-    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpace">
-      <circle cx="14" cy="14" r="0.9" fill="#3D4451"/>
+    <!-- Right-arc gradient (cyan with fade toward center) -->
+    <linearGradient id="rightArc" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <!-- ── PATTERN ────────────────────────────────────────────── -->
+
+    <!-- Dot field: subtle grid of tiny circles -->
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpace">
+      <circle cx="12" cy="12" r="0.88" fill="#283040"/>
     </pattern>
 
-    <!-- Canvas clip -->
-    <clipPath id="canvas">
+    <!-- ── FILTERS ────────────────────────────────────────────── -->
+
+    <!-- Violet node glow -->
+    <filter id="glowV" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Cyan node glow -->
+    <filter id="glowC" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- ── CLIP PATH ─────────────────────────────────────────── -->
+
+    <clipPath id="clip">
       <rect width="1200" height="320"/>
     </clipPath>
 
+    <!-- ── ANIMATIONS ─────────────────────────────────────────── -->
+    <!-- CSS animations run in SVG-as-image contexts (GitHub, browsers). -->
+    <!-- All timing is slow and ambient. Nothing flashes or bounces.    -->
+
+    <style><![CDATA[
+
+      /* ── Node pulse: slow opacity oscillation ── */
+      @keyframes pV1 { 0%,100%{ opacity:.55 } 50%{ opacity:.98 } }
+      @keyframes pV2 { 0%,100%{ opacity:.40 } 50%{ opacity:.88 } }
+      @keyframes pC1 { 0%,100%{ opacity:.50 } 50%{ opacity:.94 } }
+      @keyframes pC2 { 0%,100%{ opacity:.38 } 50%{ opacity:.82 } }
+      @keyframes pM  { 0%,100%{ opacity:.18 } 50%{ opacity:.58 } }
+
+      /* ── Arc flow: stroke-dashoffset scrolling ── */
+      @keyframes flow { from{ stroke-dashoffset:100 } to{ stroke-dashoffset:0 } }
+
+      /* ── Shimmer: horizontal sweep across canvas ── */
+      @keyframes sweep { 0%{ transform:translateX(-1300px) } 100%{ transform:translateX(1300px) } }
+
+      /* Apply to nodes */
+      .nV1{ animation: pV1  4.0s ease-in-out infinite }
+      .nV2{ animation: pV2  5.2s ease-in-out infinite 1.4s }
+      .nC1{ animation: pC1  4.4s ease-in-out infinite 0.9s }
+      .nC2{ animation: pC2  5.6s ease-in-out infinite 2.2s }
+      .nM1{ animation: pM   6.0s ease-in-out infinite 2.0s }
+      .nM2{ animation: pM   5.2s ease-in-out infinite 3.5s }
+      .nM3{ animation: pM   6.8s ease-in-out infinite 0.6s }
+
+      /* Apply to arcs — different durations and delays for organic feel */
+      .a1{ stroke-dasharray:65 40; animation: flow  9s linear infinite }
+      .a2{ stroke-dasharray:48 55; animation: flow 14s linear infinite 3.0s }
+      .a3{ stroke-dasharray:65 40; animation: flow 11s linear infinite 1.5s }
+      .a4{ stroke-dasharray:48 55; animation: flow 16s linear infinite 4.5s }
+
+      /* Shimmer sweep */
+      .shimmer{ animation: sweep 10s ease-in-out infinite }
+
+    ]]></style>
+
   </defs>
 
-  <!-- ── Base background ───────────────────────────────── -->
-  <rect width="1200" height="320" fill="url(#bgGrad)"/>
+  <!-- ═══════════════════════════════════════════════════════════
+       BASE LAYERS
+  ═══════════════════════════════════════════════════════════ -->
 
-  <!-- ── Dot grid ──────────────────────────────────────── -->
-  <rect width="1200" height="320" fill="url(#dots)" opacity="0.45" clip-path="url(#canvas)"/>
+  <!-- 1. Dark background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
 
-  <!-- ── Edge vignette (darkens outer edges so dots fade) ─ -->
-  <rect width="1200" height="320" fill="url(#bgGrad)" opacity="0.38"/>
+  <!-- 2. Dot field -->
+  <rect width="1200" height="320" fill="url(#dots)" opacity="0.52" clip-path="url(#clip)"/>
 
-  <!-- ── Bezier arc system ─────────────────────────────── -->
-  <!-- These suggest flowing data / API connections across the canvas.
-       All at very low opacity — pure atmosphere, not decoration. -->
-  <g clip-path="url(#canvas)" fill="none" stroke-width="0.9">
+  <!-- 3. Edge vignette -->
+  <rect width="1200" height="320" fill="url(#vignette)"/>
 
-    <!-- Arc 1: top-left sweep → centre-right (violet tint) -->
-    <path
-      d="M -40,60 C 200,20 500,200 780,120"
-      stroke="url(#arcViolet)"
-      opacity="0.55"
-    />
-    <!-- Arc 2: bottom-left sweep → centre-right (violet tint) -->
-    <path
-      d="M -40,260 C 180,300 420,120 700,200"
-      stroke="url(#arcViolet)"
-      opacity="0.4"
-    />
+  <!-- ═══════════════════════════════════════════════════════════
+       ARC SYSTEM — flowing Bezier data paths
+       Each path has animated dashoffset → continuous slow flow
+  ═══════════════════════════════════════════════════════════ -->
 
-    <!-- Arc 3: top-right sweep → centre-left (cyan tint) -->
-    <path
-      d="M 1240,55 C 980,15 700,210 430,125"
-      stroke="url(#arcCyan)"
-      opacity="0.55"
-    />
-    <!-- Arc 4: bottom-right sweep → centre-left (cyan tint) -->
-    <path
-      d="M 1240,265 C 1020,305 790,130 510,205"
-      stroke="url(#arcCyan)"
-      opacity="0.4"
-    />
+  <g clip-path="url(#clip)" fill="none" stroke-linecap="round">
+
+    <!-- Left upper: sweeps from left edge toward center -->
+    <path class="a1"
+      d="M -25,75  C 200,18  440,195 645,158"
+      stroke="url(#leftArc)"
+      stroke-width="0.95"/>
+
+    <!-- Left lower: softer lower sweep -->
+    <path class="a2"
+      d="M -25,245 C 175,295 415,148 618,184"
+      stroke="#8B5CF6"
+      stroke-width="0.78"
+      stroke-opacity="0.17"/>
+
+    <!-- Right upper: sweeps from right edge toward center -->
+    <path class="a3"
+      d="M 1225,70  C 1005,14  765,198 558,160"
+      stroke="url(#rightArc)"
+      stroke-width="0.95"/>
+
+    <!-- Right lower: softer lower sweep -->
+    <path class="a4"
+      d="M 1225,250 C 1048,300 818,150 596,186"
+      stroke="#22D3EE"
+      stroke-width="0.78"
+      stroke-opacity="0.15"/>
 
   </g>
 
-  <!-- ── Node circles along the arcs ──────────────────── -->
-  <!-- Left side – violet nodes -->
-  <circle cx="148"  cy="34"  r="3.2" fill="#8B5CF6" opacity="0.55"/>
-  <circle cx="310"  cy="110" r="2.2" fill="#8B5CF6" opacity="0.38"/>
-  <!-- Right side – cyan nodes -->
-  <circle cx="1052" cy="38"  r="3.2" fill="#22D3EE" opacity="0.52"/>
-  <circle cx="882"  cy="118" r="2.2" fill="#22D3EE" opacity="0.36"/>
-  <!-- Centre crossover nodes – muted -->
-  <circle cx="580"  cy="162" r="1.8" fill="#A7B0BE" opacity="0.22"/>
-  <circle cx="620"  cy="162" r="1.8" fill="#A7B0BE" opacity="0.22"/>
-  <circle cx="600"  cy="158" r="1.4" fill="#F5F2EA" opacity="0.15"/>
+  <!-- ═══════════════════════════════════════════════════════════
+       BLOOM — soft violet glow behind the text block
+  ═══════════════════════════════════════════════════════════ -->
 
-  <!-- ── Bloom glow behind text ─────────────────────────── -->
-  <ellipse cx="600" cy="168" rx="420" ry="120" fill="url(#bloom)"/>
+  <ellipse cx="600" cy="170" rx="390" ry="108" fill="url(#bloom)"/>
 
-  <!-- ════════════════════════════════════════════════════
+  <!-- ═══════════════════════════════════════════════════════════
+       NODES — small pulsing circles at arc endpoints / crossings
+  ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Violet (left arc anchors) -->
+  <circle class="nV1" cx="148" cy="38"  r="4.0" fill="#8B5CF6" filter="url(#glowV)"/>
+  <circle class="nV2" cx="318" cy="132" r="2.6" fill="#8B5CF6" filter="url(#glowV)"/>
+
+  <!-- Cyan (right arc anchors) -->
+  <circle class="nC1" cx="1054" cy="42"  r="4.0" fill="#22D3EE" filter="url(#glowC)"/>
+  <circle class="nC2" cx="878"  cy="134" r="2.6" fill="#22D3EE" filter="url(#glowC)"/>
+
+  <!-- Muted center crossover nodes -->
+  <circle class="nM1" cx="566" cy="168" r="1.9" fill="#9BA7B4"/>
+  <circle class="nM2" cx="600" cy="163" r="1.5" fill="#9BA7B4"/>
+  <circle class="nM3" cx="634" cy="168" r="1.9" fill="#9BA7B4"/>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SHIMMER — one quiet diagonal light sweep
+  ═══════════════════════════════════════════════════════════ -->
+
+  <rect class="shimmer"
+    x="0" y="0" width="240" height="320"
+    fill="url(#shimmerG)"
+    clip-path="url(#clip)"/>
+
+  <!-- ═══════════════════════════════════════════════════════════
        TEXT BLOCK
-  ════════════════════════════════════════════════════ -->
+  ═══════════════════════════════════════════════════════════ -->
 
-  <!-- Primary name -->
+  <!-- Primary name — dominant element -->
   <text
-    x="600"
-    y="148"
+    x="600" y="153"
     text-anchor="middle"
-    font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-    font-size="60"
+    font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+    font-size="62"
     font-weight="700"
     letter-spacing="-0.8"
-    fill="#F5F2EA"
+    fill="#F3F0E8"
   >Muhammad Sohail</text>
 
-  <!-- Role · Stack line -->
+  <!-- Role / positioning line -->
   <text
-    x="600"
-    y="187"
+    x="600" y="192"
     text-anchor="middle"
-    font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-    font-size="15"
+    font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+    font-size="14"
     font-weight="400"
     letter-spacing="3.2"
-    fill="#8892A4"
+    fill="#788598"
   >SOFTWARE DEVELOPER  ·  LARAVEL  ·  PYTHON  ·  SAAS</text>
 
-  <!-- Gradient separator line -->
-  <rect x="180" y="207" width="840" height="1.1" fill="url(#accentGrad)" rx="0.5"/>
+  <!-- Violet → Cyan gradient separator -->
+  <rect x="188" y="211" width="824" height="1" fill="url(#sep)" rx="0.5"/>
 
-  <!-- Supporting tagline -->
+  <!-- Tagline — most subtle element -->
   <text
-    x="600"
-    y="239"
+    x="600" y="244"
     text-anchor="middle"
-    font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-    font-size="13"
+    font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+    font-size="12"
     font-style="italic"
     font-weight="300"
-    letter-spacing="0.6"
-    fill="#545F72"
-  >Building practical software and intelligent systems</text>
+    letter-spacing="0.7"
+    fill="#47536A"
+  >Building practical software and intelligent systems.</text>
 
-  <!-- ── Subtle corner marks (very faint geometric) ─────── -->
-  <!-- Top-left corner bracket -->
-  <g stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.14">
-    <line x1="24" y1="40" x2="24" y2="24"/>
-    <line x1="24" y1="24" x2="60" y2="24"/>
-  </g>
-  <!-- Top-right corner bracket -->
-  <g stroke="#22D3EE" stroke-width="1" fill="none" opacity="0.14">
-    <line x1="1176" y1="40" x2="1176" y2="24"/>
-    <line x1="1176" y1="24" x2="1140" y2="24"/>
-  </g>
-  <!-- Bottom-left corner bracket -->
-  <g stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.10">
-    <line x1="24" y1="280" x2="24" y2="296"/>
-    <line x1="24" y1="296" x2="60" y2="296"/>
-  </g>
-  <!-- Bottom-right corner bracket -->
-  <g stroke="#22D3EE" stroke-width="1" fill="none" opacity="0.10">
-    <line x1="1176" y1="280" x2="1176" y2="296"/>
-    <line x1="1176" y1="296" x2="1140" y2="296"/>
-  </g>
+  <!-- ═══════════════════════════════════════════════════════════
+       CORNER MARKS — thin L-bracket interface marks
+       Violet: left corners · Cyan: right corners
+  ═══════════════════════════════════════════════════════════ -->
+
+  <!-- Top-left -->
+  <path d="M 28,52 L 28,26 L 70,26"
+    stroke="#8B5CF6" stroke-width="1.1" fill="none" stroke-opacity="0.22"
+    stroke-linecap="round"/>
+
+  <!-- Top-right -->
+  <path d="M 1172,52 L 1172,26 L 1130,26"
+    stroke="#22D3EE" stroke-width="1.1" fill="none" stroke-opacity="0.22"
+    stroke-linecap="round"/>
+
+  <!-- Bottom-left -->
+  <path d="M 28,268 L 28,294 L 70,294"
+    stroke="#8B5CF6" stroke-width="1.1" fill="none" stroke-opacity="0.14"
+    stroke-linecap="round"/>
+
+  <!-- Bottom-right -->
+  <path d="M 1172,268 L 1172,294 L 1130,294"
+    stroke="#22D3EE" stroke-width="1.1" fill="none" stroke-opacity="0.14"
+    stroke-linecap="round"/>
 
 </svg>
