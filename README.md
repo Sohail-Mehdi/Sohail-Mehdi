@@ -9,7 +9,7 @@
 <!-- ─── HERO ──────────────────────────────────────────────── -->
 
 <img
-  src="./assets/github-header.svg"
+  src="./assets/github-live-cover.webp"
   alt="Muhammad Sohail — Software Developer · Laravel · Python · SaaS"
   width="100%"
 />
