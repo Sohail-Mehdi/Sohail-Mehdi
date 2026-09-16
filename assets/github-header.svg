@@ -1,99 +1,180 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Muhammad Sohail — Software Developer · Laravel · Python · SaaS. Building practical software and intelligent systems.">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 320"
+  width="1200"
+  height="320"
+  role="img"
+  aria-label="Muhammad Sohail — Software Developer · Laravel · Python · SaaS. Building practical software and intelligent systems."
+>
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%"   stop-color="#0D1117"/>
-      <stop offset="50%"  stop-color="#0F1318"/>
-      <stop offset="100%" stop-color="#161B22"/>
+
+    <!-- ── Backgrounds ───────────────────────────────────── -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#0B0F17"/>
+      <stop offset="55%"  stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#131920"/>
     </linearGradient>
 
-    <!-- Violet → Cyan accent line gradient -->
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="20%"  stop-color="#8B5CF6" stop-opacity="1"/>
-      <stop offset="50%"  stop-color="#7C9CF6" stop-opacity="1"/>
-      <stop offset="80%"  stop-color="#22D3EE" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Soft radial glow behind text -->
-    <radialGradient id="glow" cx="50%" cy="50%" r="45%">
-      <stop offset="0%"   stop-color="#1E2433" stop-opacity="0.6"/>
+    <!-- Soft violet radial bloom behind text -->
+    <radialGradient id="bloom" cx="50%" cy="52%" r="38%">
+      <stop offset="0%"   stop-color="#1A1040" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Node graph motif clip -->
-    <clipPath id="headerClip">
-      <rect width="1200" height="280"/>
+    <!-- Violet → Cyan accent line -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="18%"  stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#6EA8F8" stop-opacity="1"/>
+      <stop offset="82%"  stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Left-edge curve glow (violet) -->
+    <linearGradient id="arcViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Right-edge curve glow (cyan) -->
+    <linearGradient id="arcCyan" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%"   stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpace">
+      <circle cx="14" cy="14" r="0.9" fill="#3D4451"/>
+    </pattern>
+
+    <!-- Canvas clip -->
+    <clipPath id="canvas">
+      <rect width="1200" height="320"/>
     </clipPath>
+
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="280" fill="url(#bg)"/>
+  <!-- ── Base background ───────────────────────────────── -->
+  <rect width="1200" height="320" fill="url(#bgGrad)"/>
 
-  <!-- Soft center glow -->
-  <ellipse cx="600" cy="140" rx="500" ry="160" fill="url(#glow)"/>
+  <!-- ── Dot grid ──────────────────────────────────────── -->
+  <rect width="1200" height="320" fill="url(#dots)" opacity="0.45" clip-path="url(#canvas)"/>
 
-  <!-- ─── Subtle node-graph motif (top-center) ─── -->
-  <!-- Very thin, low-opacity lines suggesting API/backend connections -->
-  <g clip-path="url(#headerClip)" opacity="0.18" stroke="#A7B0BE" stroke-width="0.8" fill="none">
-    <!-- Horizontal spine -->
-    <line x1="490" y1="38" x2="710" y2="38"/>
-    <!-- Branch lines -->
-    <line x1="520" y1="38" x2="500" y2="22"/>
-    <line x1="560" y1="38" x2="545" y2="18"/>
-    <line x1="600" y1="38" x2="600" y2="16"/>
-    <line x1="640" y1="38" x2="655" y2="18"/>
-    <line x1="680" y1="38" x2="700" y2="22"/>
-    <!-- Endpoint nodes (small circles) -->
-    <circle cx="490" cy="38"  r="2.2" fill="#A7B0BE" stroke="none"/>
-    <circle cx="710" cy="38"  r="2.2" fill="#A7B0BE" stroke="none"/>
-    <circle cx="500" cy="22"  r="1.8" fill="#8B5CF6" stroke="none" opacity="0.7"/>
-    <circle cx="545" cy="18"  r="1.8" fill="#8B5CF6" stroke="none" opacity="0.7"/>
-    <circle cx="600" cy="16"  r="2.0" fill="#22D3EE" stroke="none" opacity="0.9"/>
-    <circle cx="655" cy="18"  r="1.8" fill="#8B5CF6" stroke="none" opacity="0.7"/>
-    <circle cx="700" cy="22"  r="1.8" fill="#8B5CF6" stroke="none" opacity="0.7"/>
-    <circle cx="520" cy="38"  r="1.5" fill="#A7B0BE" stroke="none"/>
-    <circle cx="560" cy="38"  r="1.5" fill="#A7B0BE" stroke="none"/>
-    <circle cx="600" cy="38"  r="1.5" fill="#A7B0BE" stroke="none"/>
-    <circle cx="640" cy="38"  r="1.5" fill="#A7B0BE" stroke="none"/>
-    <circle cx="680" cy="38"  r="1.5" fill="#A7B0BE" stroke="none"/>
+  <!-- ── Edge vignette (darkens outer edges so dots fade) ─ -->
+  <rect width="1200" height="320" fill="url(#bgGrad)" opacity="0.38"/>
+
+  <!-- ── Bezier arc system ─────────────────────────────── -->
+  <!-- These suggest flowing data / API connections across the canvas.
+       All at very low opacity — pure atmosphere, not decoration. -->
+  <g clip-path="url(#canvas)" fill="none" stroke-width="0.9">
+
+    <!-- Arc 1: top-left sweep → centre-right (violet tint) -->
+    <path
+      d="M -40,60 C 200,20 500,200 780,120"
+      stroke="url(#arcViolet)"
+      opacity="0.55"
+    />
+    <!-- Arc 2: bottom-left sweep → centre-right (violet tint) -->
+    <path
+      d="M -40,260 C 180,300 420,120 700,200"
+      stroke="url(#arcViolet)"
+      opacity="0.4"
+    />
+
+    <!-- Arc 3: top-right sweep → centre-left (cyan tint) -->
+    <path
+      d="M 1240,55 C 980,15 700,210 430,125"
+      stroke="url(#arcCyan)"
+      opacity="0.55"
+    />
+    <!-- Arc 4: bottom-right sweep → centre-left (cyan tint) -->
+    <path
+      d="M 1240,265 C 1020,305 790,130 510,205"
+      stroke="url(#arcCyan)"
+      opacity="0.4"
+    />
+
   </g>
 
-  <!-- ─── Primary Name ─── -->
+  <!-- ── Node circles along the arcs ──────────────────── -->
+  <!-- Left side – violet nodes -->
+  <circle cx="148"  cy="34"  r="3.2" fill="#8B5CF6" opacity="0.55"/>
+  <circle cx="310"  cy="110" r="2.2" fill="#8B5CF6" opacity="0.38"/>
+  <!-- Right side – cyan nodes -->
+  <circle cx="1052" cy="38"  r="3.2" fill="#22D3EE" opacity="0.52"/>
+  <circle cx="882"  cy="118" r="2.2" fill="#22D3EE" opacity="0.36"/>
+  <!-- Centre crossover nodes – muted -->
+  <circle cx="580"  cy="162" r="1.8" fill="#A7B0BE" opacity="0.22"/>
+  <circle cx="620"  cy="162" r="1.8" fill="#A7B0BE" opacity="0.22"/>
+  <circle cx="600"  cy="158" r="1.4" fill="#F5F2EA" opacity="0.15"/>
+
+  <!-- ── Bloom glow behind text ─────────────────────────── -->
+  <ellipse cx="600" cy="168" rx="420" ry="120" fill="url(#bloom)"/>
+
+  <!-- ════════════════════════════════════════════════════
+       TEXT BLOCK
+  ════════════════════════════════════════════════════ -->
+
+  <!-- Primary name -->
   <text
-    x="600" y="138"
+    x="600"
+    y="148"
     text-anchor="middle"
     font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-    font-size="58"
+    font-size="60"
     font-weight="700"
-    letter-spacing="-0.5"
+    letter-spacing="-0.8"
     fill="#F5F2EA"
   >Muhammad Sohail</text>
 
-  <!-- ─── Role tagline ─── -->
+  <!-- Role · Stack line -->
   <text
-    x="600" y="172"
+    x="600"
+    y="187"
     text-anchor="middle"
     font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
-    font-size="17"
+    font-size="15"
     font-weight="400"
-    letter-spacing="2.5"
-    fill="#A7B0BE"
+    letter-spacing="3.2"
+    fill="#8892A4"
   >SOFTWARE DEVELOPER  ·  LARAVEL  ·  PYTHON  ·  SAAS</text>
 
-  <!-- ─── Accent gradient line ─── -->
-  <rect x="200" y="192" width="800" height="1.2" fill="url(#accentLine)" rx="1"/>
+  <!-- Gradient separator line -->
+  <rect x="180" y="207" width="840" height="1.1" fill="url(#accentGrad)" rx="0.5"/>
 
-  <!-- ─── Supporting statement ─── -->
+  <!-- Supporting tagline -->
   <text
-    x="600" y="226"
+    x="600"
+    y="239"
     text-anchor="middle"
     font-family="'Segoe UI', 'Inter', 'Helvetica Neue', Arial, sans-serif"
     font-size="13"
     font-style="italic"
     font-weight="300"
-    letter-spacing="0.4"
-    fill="#6B7280"
-  >Building practical software and intelligent systems.</text>
+    letter-spacing="0.6"
+    fill="#545F72"
+  >Building practical software and intelligent systems</text>
+
+  <!-- ── Subtle corner marks (very faint geometric) ─────── -->
+  <!-- Top-left corner bracket -->
+  <g stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.14">
+    <line x1="24" y1="40" x2="24" y2="24"/>
+    <line x1="24" y1="24" x2="60" y2="24"/>
+  </g>
+  <!-- Top-right corner bracket -->
+  <g stroke="#22D3EE" stroke-width="1" fill="none" opacity="0.14">
+    <line x1="1176" y1="40" x2="1176" y2="24"/>
+    <line x1="1176" y1="24" x2="1140" y2="24"/>
+  </g>
+  <!-- Bottom-left corner bracket -->
+  <g stroke="#8B5CF6" stroke-width="1" fill="none" opacity="0.10">
+    <line x1="24" y1="280" x2="24" y2="296"/>
+    <line x1="24" y1="296" x2="60" y2="296"/>
+  </g>
+  <!-- Bottom-right corner bracket -->
+  <g stroke="#22D3EE" stroke-width="1" fill="none" opacity="0.10">
+    <line x1="1176" y1="280" x2="1176" y2="296"/>
+    <line x1="1176" y1="296" x2="1140" y2="296"/>
+  </g>
+
 </svg>

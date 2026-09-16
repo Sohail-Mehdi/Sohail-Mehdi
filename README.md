@@ -12,6 +12,7 @@
   src="./assets/github-header.svg"
   alt="Muhammad Sohail — Software Developer · Laravel · Python · SaaS. Building practical software and intelligent systems."
   width="100%"
+  style="display:block;"
 />
 
 <br/>
@@ -46,15 +47,15 @@ My academic foundation is in full-stack development (MERN stack, final-year proj
 
 ---
 
-<!-- ─── CURRENTLY BUILDING ─────────────────────────────── -->
+<!-- ─── WHAT I BUILD ───────────────────────────────────── -->
 
-## Currently Building
+## What I Build
 
-> **E-commerce & Logistics SaaS** — *in active development*
-
-An order and logistics management platform aimed at helping online sellers reduce unnecessary COD return / RTO (Return to Origin) losses and improve fulfilment workflows.
-
-The project covers order processing, logistics coordination, courier integrations, automated risk workflows, and seller operations — built on a SaaS architecture with a Laravel/PHP backend.
+- **SaaS and web application development** — backend systems, multi-tenant architecture, business logic, workflow automation
+- **E-commerce and logistics software** — order management, fulfilment workflows, COD/RTO reduction, courier integrations
+- **Backend APIs and integrations** — REST APIs, webhooks, third-party service integrations, background processing
+- **AI-assisted software** — LLM API integrations, AI-driven workflow automation, intelligent system components
+- **Technical research** — independent research into LLM agent memory, reproducible experiments, controlled evaluation
 
 ---
 
